@@ -7,7 +7,7 @@ Rewrite of the sensibo API client using Cistern.
 ### Installation
 `gem install sensibo-api`
 
-`require 'sensibo-api'`
+`require 'sensibo'`
 
 ###
 1. Initialize the client
