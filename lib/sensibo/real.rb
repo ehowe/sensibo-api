@@ -16,8 +16,6 @@ class Sensibo::Real
       req.body   = Oj.dump(args[:body]) if args[:body]
     end
 
-    binding.pry if $pry
-
     Oj.load(res.body)
   end
 end

@@ -40,8 +40,6 @@ class Sensibo::Device
       }
     }
 
-    p body
-
     body = cistern.set_device_state(self.id, body)["result"]
 
     raise RuntimeError.new("Save Failed") unless body["status"] == "Success"
