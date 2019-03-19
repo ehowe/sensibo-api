@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["eugene@xtreme-computers.net"]
   gem.description   = %q{}
   gem.summary       = %q{}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/ehowe/sensibo-api.git"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
